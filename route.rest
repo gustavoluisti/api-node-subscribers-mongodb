@@ -1,0 +1,12 @@
+### acessando via GET
+GET http://localhost:3333/subscribers
+###
+POST http://localhost:3333/subscribers
+Content-Type: : application/json
+{
+    "userName": "Djalma",
+    "UserChannel": "hcodeBrasil"
+}
+###
+GET http://localhost:3333/subscribers/5e9cc410f0c9ff8805c697ca
+###
