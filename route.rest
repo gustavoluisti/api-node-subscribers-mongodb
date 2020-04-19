@@ -10,3 +10,9 @@ Content-Type: : application/json
 ###
 GET http://localhost:3333/subscribers/5e9cc410f0c9ff8805c697ca
 ###
+PATCH http://localhost:3333/subscribers/5e9cc3ebf0c9ff8805c697c6
+Content-Type: application/json
+
+{
+    "userName": "Jão"
+}
